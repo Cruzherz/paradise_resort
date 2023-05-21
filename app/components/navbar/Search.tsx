@@ -110,7 +110,7 @@ block
           <div
             className="
               p-2 
-              bg-blue-500 
+              bg-stone-700 
               rounded-full 
               text-white
             "

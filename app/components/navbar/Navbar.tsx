@@ -90,6 +90,9 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
                     <Link href="/rooms">Rooms</Link>
                   </li>
                   <li className="">
+                    <Link href="/facilities">Facilities</Link>
+                  </li>
+                  <li className="">
                     <Link href="/about">About</Link>
                   </li>
                   <UserMenu currentUser={currentUser} />

@@ -46,7 +46,7 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
   return (
     <Container>
       <section className="bg-custom-human-skin pt-24 pb-10 px-16">
-        <Heading title="Properties" subtitle="List of your properties" />
+        <Heading title="Kamar Hotel Paradise" subtitle="List of your rooms" />
         <div
           className="
           mt-10
@@ -67,7 +67,7 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
               actionId={listing.id}
               onAction={onDelete}
               disabled={deletingId === listing.id}
-              actionLabel="Delete property"
+              actionLabel="Delete Kamar"
               currentUser={currentUser}
             />
           ))}

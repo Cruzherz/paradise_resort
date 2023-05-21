@@ -44,7 +44,8 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
 
   return (
     <Container>
-      <Heading title="Reservations" subtitle="Bookings on your properties" />
+      <div className="my-8"></div>
+       <Heading title="Reservations" subtitle="Bookings on your properties" center />
       <div
         className="
           mt-10
@@ -56,6 +57,8 @@ const ReservationsClient: React.FC<ReservationsClientProps> = ({
           xl:grid-cols-5
           2xl:grid-cols-6
           gap-8
+          mx-4
+          mb-5
         "
       >
         {reservations.map((reservation: any) => (

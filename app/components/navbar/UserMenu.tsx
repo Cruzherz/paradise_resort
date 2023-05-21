@@ -45,10 +45,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
           <div
             onClick={onRent}
             className="
-          flex px-6 py-2 border gap-3 uppercase items-center 
-
-            cursor-pointer
-          "
+          flex px-6 py-2 border gap-3 uppercase items-center cursor-pointer rounded-full"
           >
             sewa
             <svg

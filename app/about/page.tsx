@@ -1,7 +1,6 @@
 import Container from "@/app/components/Container";
 import ClientOnly from "../components/ClientOnly";
 import Section from "../components/Section";
-import Carousel from "../components/Carousel";
 
 const About = async () => {
   return (
@@ -19,11 +18,6 @@ const About = async () => {
             dan perlengkapan kamar mandi mewah untuk memastikan kenyamanan tamu
             kami.
           </p>
-        </Section>
-        <Section title="Fasilitas">
-          <div className="max-w-lg mx-auto mt-10">
-            <Carousel />
-          </div>
         </Section>
       </Container>
     </ClientOnly>

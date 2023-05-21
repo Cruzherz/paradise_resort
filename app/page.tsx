@@ -16,8 +16,8 @@ const Home = async () => {
     <ClientOnly>
       <Container>
         <section className="bg-custom-brown pt-24 pb-10 px-16">
-          <h2 className=" uppercase text-center relative top-5 z-10 text-slate-50 font-bold text-6xl">
-            tinggal dengan nyaman
+          <h2 className=" uppercase text-center relative top-5 z-10 text-slate-50 font-bold text-6xl ">
+            tinggal dengan nyaman !
           </h2>
           <div className="relative overflow-hidden h-[500px] w-full">
             <Image

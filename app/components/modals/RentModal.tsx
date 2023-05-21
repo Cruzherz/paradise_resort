@@ -117,7 +117,7 @@ const RentModal = () => {
 
   let bodyContent = (
     <div className="flex flex-col gap-8">
-      <Heading title="Pilih kategori kamar anda" subtitle="Pilih" />
+      <Heading title="Pilih Kategori Kamar Anda" subtitle="Terdapat Beberapa Pilihan Tersedia!" />
       <div
         className="
           grid 
@@ -225,7 +225,7 @@ const RentModal = () => {
         />
         <Input
           id="price"
-          label="Harga"
+          label="Harga Kamar"
           formatPrice
           type="number"
           disabled={isLoading}
