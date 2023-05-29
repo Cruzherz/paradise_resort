@@ -89,12 +89,12 @@ const Navbar: React.FC<NavbarProps> = ({ currentUser }) => {
                   <li>
                     <Link href="/rooms">Rooms</Link>
                   </li>
-                  <li className="">
+                  {/* <li className="">
                     <Link href="/facilities">Facilities</Link>
                   </li>
                   <li className="">
                     <Link href="/about">About</Link>
-                  </li>
+                  </li> */}
                   <UserMenu currentUser={currentUser} />
                 </ul>
               </div>
